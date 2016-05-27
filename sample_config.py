@@ -1,5 +1,8 @@
-#Sample config file for the postgres_gspread connector
-
+"""
+Sample config file for the postgres_gspread connector.
+Fill out the  google_info and postgres_info dict objects below with your info and save
+the file as config.py in the same directory as the postgres_gspread_1.py file.
+"""
 #Here is the information of the Google spreadsheet and worksheet to which we wish to transfer data. 
 google_info=dict(
 	#Point to service_account json file contraining the credentials for your Google Drive account. 
